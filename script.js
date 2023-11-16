@@ -23,7 +23,7 @@ async function getFaqData() {
     const body = post.body;
 
     const titleDiv = document.createElement("div");
-    titleDiv.className = "title";
+    titleDiv.className = "title2";
 
     titleDiv.addEventListener("click", faqClickHandler);
 

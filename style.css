@@ -3,11 +3,33 @@ html {
   color: #19171c;
 }
 
+h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+p, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .title {
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.title2 {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  gap: 5px;
+  background-color: rgb(118, 153, 172);
+  border: solid #19171c 1px;
+  border-radius: 10px;
 }
 
 i {
@@ -22,18 +44,17 @@ i {
 }
 
 .description {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(218, 165, 195);
+  border: solid #19171c 1px;
+  border-radius: 10px;
+}
+
+.description {
   display: none;
-  /* visibility: hidden; */
 }
 
 .myActiveFaq+.description {
   display: block;
 }
-
-/* .description {
-  display: none;
-}
-
-.active + .description {
-  display: block;
-} */
